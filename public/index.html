@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/img/100Trivia-Logo.png">
+  <meta charset="utf-8">
+  <title>100 Trivia</title>
+  <link rel="stylesheet" type="text/css" href="/src/home.css">
+  <script src="/src/index.js"></script>
+  <script src="/src/App.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-45747368-7');
+  </script>
+</head>
+<body>
+  <header id="masthead" class="site-header  header--transparent" role="banner" style="padding-bottom: 0px;">
+    <div class="site-branding  site-branding--image">
+      <a href="/img/100Trivia-Logo.png" class="custom-logo-link" rel="home" aria-current="page">
+        <img width="335" height="125" src="/img/100Trivia-Logo.png" sizes="(max-width: 335px) 100vw, 335px">
+      </a>
+    </div>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#game rules">Game Rules</a></li>
+    <li><a href="#contact us">Contact Us</a></li>
+  </ul>
+  </header>
+  <h2>Login</h2>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<div id="id01" class="modal">  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="/img/signin-avatar.gif" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <p color="#364962" font-size="6,6,7" font-weight="700" class="Text-pXEYb clCvUW">Hello!</p>
+      <p color="#364962" font-size="4,4,5" font-weight="600" class="Text-pXEYb jyDPrY">Create your free account</p>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<h3 class="widget_title  widget_title--frontpage">
+  Welcome to the Trivia's Guru World				<span class="widget_subtitle  widget_subtitle--frontpage">Challenge your friends a become a Trivia Guru</span>
+      </h3>
+</body>
+</html>

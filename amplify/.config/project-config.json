@@ -1,0 +1,17 @@
+{
+  "projectName": "100trivia",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "srcs",
+      "DistributionDir": "build",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

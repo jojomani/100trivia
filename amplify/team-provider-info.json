@@ -1,0 +1,22 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-100trivia-dev-205417-authRole",
+      "UnauthRoleArn": "arn:aws:iam::911176012138:role/amplify-100trivia-dev-205417-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::911176012138:role/amplify-100trivia-dev-205417-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-100trivia-dev-205417-deployment",
+      "UnauthRoleName": "amplify-100trivia-dev-205417-unauthRole",
+      "StackName": "amplify-100trivia-dev-205417",
+      "StackId": "arn:aws:cloudformation:us-east-1:911176012138:stack/amplify-100trivia-dev-205417/50fd2090-f880-11ea-9835-0a3238f55eb3",
+      "AmplifyAppId": "d3pop1pxv60zni"
+    },
+    "categories": {
+      "auth": {
+        "100trivia2ef60f26": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"561220935039-pq6puijk195om82d0bvc4fvgo9abbio7.apps.googleusercontent.com\",\"client_secret\":\"imBXo8fwhDwiXITQ8IGdhv1j\"}]"
+        }
+      }
+    }
+  }
+}
