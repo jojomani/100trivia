@@ -142,7 +142,8 @@ input[type=text], input[type=password] {
 /* Set a style for all buttons */
 button {
   float: right;
-  background-color: #4CAF50;
+  background-color: #2AC940;
+  border-radius: 20px;
   color: white;
   padding: 14px 18px;
   margin: 8px 0;
