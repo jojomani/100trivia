@@ -44,12 +44,16 @@ li a:hover:not(.active) {
 }
 
 button {
+  float: right;
+  background-color: #2AC940;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
   height: 34px;
   width: 100px;
-  color: white;
-  border-radius: 20px;
-  background-color: #2AC940;
-  float: right;
+  align-items: center;
 }
 
 body {
