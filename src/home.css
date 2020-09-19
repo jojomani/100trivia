@@ -43,10 +43,13 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
-a:link,
-a:visited,
-a:active {
-  color: var(--link-color);
+button {
+  height: 34px;
+  width: 100px;
+  color: white;
+  border-radius: 20px;
+  background-color: #2AC940;
+  float: right;
 }
 
 body {
